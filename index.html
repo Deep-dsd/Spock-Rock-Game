@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spock Rock</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="header">
+        <h1>Rock Paper Scissors Lizard Spock</h1>
+      </div>
+      <!-- player Container -->
+      <div class="player-container" id="player">
+        <h2>
+          You - <span id="player-score"></span>
+          <span class="choice" id="player-choice"> --- Choice</span>
+        </h2>
+        <i
+          class="fa-regular fa-hand-back-fist player"
+          title="Rock"
+          id="player-rock"
+        ></i>
+        <i
+          class="fa-regular fa-hand player"
+          title="Paper"
+          id="player-paper"
+        ></i>
+        <i
+          class="fa-regular fa-hand-scissors player"
+          title="Scissors"
+          id="player-scissors"
+        ></i>
+        <i
+          class="fa-regular fa-hand-lizard player"
+          title="Lizard"
+          id="player-lizard"
+        ></i>
+        <i
+          class="fa-regular fa-hand-spock player"
+          title="Spock"
+          id="player-spock"
+        ></i>
+      </div>
+      <!-- Computer Container -->
+      <div class="player-container" id="computer">
+        <h2>
+          Computer - <span id="computer-score"></span>
+          <span class="choice" id="computer-choice"> --- Choice</span>
+        </h2>
+        <i
+          class="fa-regular fa-hand-back-fist computer"
+          title="Rock"
+          id="computer-rock"
+        ></i>
+        <i
+          class="fa-regular fa-hand computer"
+          title="Paper"
+          id="computer-paper"
+        ></i>
+        <i
+          class="fa-regular fa-hand-scissors computer"
+          title="Scissors"
+          id="computer-scissors"
+        ></i>
+        <i
+          class="fa-regular fa-hand-lizard computer"
+          title="Lizard"
+          id="computer-lizard"
+        ></i>
+        <i
+          class="fa-regular fa-hand-spock computer"
+          title="Spock"
+          id="computer-spock"
+        ></i>
+      </div>
+      <!-- Reset Icon -->
+      <i class="fa-solid fa-rotate reset-icon" title="Reset"></i>
+      <!-- Results Text -->
+      <div class="result-container">
+        <h3 class="result-text" id="result-text"></h3>
+      </div>
+    </div>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
