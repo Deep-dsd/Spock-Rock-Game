@@ -107,6 +107,3 @@ resetBtnEl.addEventListener("click", () => {
   playerChoiceEl.textContent = " --- Choice";
   resetSelected();
 });
-
-// https://www.cssscript.com/confetti-falling-animation/#google_vignette
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
